@@ -4,3 +4,20 @@
     box-sizing: border-box;
 }
 
+#container {
+    width: 80%;
+    margin:0 auto;
+    background-color: white;   
+}
+
+#logo {
+    display:inline-block;
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+#titolo {
+    display:inline-block;
+    vertical-align: middle;
+    line-height: 100%;
+}
