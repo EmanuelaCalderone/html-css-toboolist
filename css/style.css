@@ -22,7 +22,7 @@ header {
     width: 80%;
     margin: 0 auto;
     background-color: white;
-    padding: 10px 30px 5px;
+    padding: 10px 50px 5px;
     line-height: 50px;
     border-radius: 3px;
 }
@@ -56,5 +56,12 @@ header {
     border-color: #c1c0c2;
     border-radius:5px;
     padding: 7px;
+}
 
+.task::before {
+    content: "\25BC";
+}
+
+h3 {
+    display: inline;
 }
