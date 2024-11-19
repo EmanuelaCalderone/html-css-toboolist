@@ -23,7 +23,7 @@ header {
     margin: 0 auto;
     background-color: white;
     padding: 10px 50px 5px;
-    line-height: 50px;
+    line-height: 40px;
     border-radius: 3px;
 }
 
@@ -58,10 +58,26 @@ header {
     padding: 7px;
 }
 
+#buttons {
+    margin-bottom: 40px;
+}
+
 .task::before {
     content: "\25BC";
 }
 
 h3 {
-    display: inline;
+    display: inline-block;
+}
+
+.task {
+    margin-top: 15px;
+}
+
+.sì::before{
+    content:"\2713";
+}
+
+.no::before {
+    content:"\00D7";
 }
