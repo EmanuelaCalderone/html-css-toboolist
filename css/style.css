@@ -95,3 +95,35 @@ h3 {
     color: #A0737C;
     margin-right: 8px;
 }
+
+.tipo {
+    color:white;
+    font-size:13px;
+    border-radius: 35%;
+    padding: 10px 15px;
+    margin-left: 6px;
+}
+
+.editorial {
+    background-color:#52A7F5;
+}
+
+#viola {
+    background-color:#9C71E0;
+}
+
+#verde {
+    background-color:#60BFA6;
+}
+
+#arancione {
+    background-color:#EEA438;
+}
+
+#fucsia {
+    background-color:#D367A0;
+}
+
+#lime {
+    background-color:#AFC92A;
+}
