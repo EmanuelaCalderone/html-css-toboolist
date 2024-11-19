@@ -4,14 +4,28 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+    font-family: "Noto Sans CJK", sans-serif;
+}
+
 #intestazione {
     margin-top: 20px;
     margin-left: 20px;
 }
+main {
+    padding:50px;
+    margin:50px;
+}
+
 #container {
     width: 80%;
-    margin:0 auto;
-    background-color: white;   
+    margin: 0 auto;
+    background-color: white;  
+    border-width: 100px;
+    border-style: solid;
+    border-color: #F6F8FA;
+    padding: 20px;
 }
 
 #logo {
@@ -25,6 +39,23 @@
     vertical-align: middle;
     line-height: 100%;
     font-size: 40px;
-    font-family: "Noto Sans CJK", sans-serif;
     font-weight: bold;
+}
+
+#task-button{
+    background-color: #52A7F5;
+    color:white;
+    border-radius:5px;
+    padding: 7px;
+    border: none;
+}
+
+#section-button{
+    background-color: white;
+    color:#c1c0c2;
+    border: solid 1px;
+    border-color: #c1c0c2;
+    border-radius:5px;
+    padding: 7px;
+
 }
