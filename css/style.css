@@ -5,27 +5,26 @@
 }
 
 body {
-    background-color: white;
+    background-color: #F6F8FA;
     font-family: "Noto Sans CJK", sans-serif;
 }
-
+header {
+    background-color:white;
+    margin-top:0;
+    margin-bottom: 40px;
+}
 #intestazione {
-    margin-top: 20px;
-    margin-left: 20px;
+    padding: 15px 0px 15px 20px;
 }
-main {
-    padding:50px;
-    margin:50px;
-}
+
 
 #container {
     width: 80%;
     margin: 0 auto;
-    background-color: white;  
-    border-width: 100px;
-    border-style: solid;
-    border-color: #F6F8FA;
-    padding: 20px;
+    background-color: white;
+    padding: 10px 30px 5px;
+    line-height: 50px;
+    border-radius: 3px;
 }
 
 #logo {
